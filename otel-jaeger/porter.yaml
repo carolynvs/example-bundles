@@ -3,6 +3,7 @@ name: examples/otel-jaeger
 version: 0.1.0
 description: "Runs Jaeger with an OpenTelemetry collector"
 registry: ghcr.io/getporter
+dockerfile: template.Dockerfile
 
 parameters:
   - name: jaeger-ui-port
